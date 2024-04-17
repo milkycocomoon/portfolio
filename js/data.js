@@ -4,7 +4,7 @@ const projectList = [
         year: '2024',
         type: 'Website',
         category: 'Development',
-        image: 'url(../assets/images/projects/development/blakelw.webp)',
+        image: 'url(./assets/images/projects/development/blakelw.webp)',
         link: 'https://milkycocomoon.github.io/BlakeLW/'
     },
     {
@@ -12,7 +12,7 @@ const projectList = [
         year: '2024',
         type: 'Web application',
         category: 'Development',
-        image: 'url(../assets/images/projects/development/leafer.webp)',
+        image: 'url(./assets/images/projects/development/leafer.webp)',
         link: 'https://milkycocomoon.github.io/Leafer/'
     },
     {
@@ -20,7 +20,7 @@ const projectList = [
         year: '2024',
         type: 'UI/UX design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/leafer.webp)',
+        image: 'url(./assets/images/projects/design/leafer.webp)',
         link: 'https://www.behance.net/gallery/194549289/Leafer'
     },
     {
@@ -28,7 +28,7 @@ const projectList = [
         year: '2024',
         type: 'Motion design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/warden-of-nothing.webp)',
+        image: 'url(./assets/images/projects/design/warden-of-nothing.webp)',
         link: 'https://www.behance.net/gallery/189095023/EP-Warden-of-Nothing'
     },
     {
@@ -36,7 +36,7 @@ const projectList = [
         year: '2023',
         type: 'Motion design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/cinereusv.webp)',
+        image: 'url(./assets/images/projects/design/cinereusv.webp)',
         link: 'https://www.behance.net/gallery/189093035/EP-Cinereus-V'
     },
     {
@@ -44,7 +44,7 @@ const projectList = [
         year: '2023',
         type: 'Motion design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/black-sheep.webp)',
+        image: 'url(./assets/images/projects/design/black-sheep.webp)',
         link: 'https://www.behance.net/gallery/189090357/EP-Black-Sheep'
     },
     {
@@ -52,7 +52,7 @@ const projectList = [
         year: '2023',
         type: 'JavaScript game',
         category: 'Development',
-        image: 'url(../assets/images/projects/development/minesweeper.webp)',
+        image: 'url(./assets/images/projects/development/minesweeper.webp)',
         link: 'https://rolling-scopes-school.github.io/milkycocomoon-JSFE2023Q1/minesweeper/index.html'
     },
     {
@@ -60,7 +60,7 @@ const projectList = [
         year: '2023',
         type: 'JavaScript project',
         category: 'Development',
-        image: 'url(../assets/images/projects/development/virtual-keyboard.webp)',
+        image: 'url(./assets/images/projects/development/virtual-keyboard.webp)',
         link: 'https://milkycocomoon.github.io/virtual-keyboard/'
     },
     {
@@ -68,7 +68,7 @@ const projectList = [
         year: '2023',
         type: 'JavaScript project',
         category: 'Development',
-        image: 'url(../assets/images/projects/development/momentum.webp)',
+        image: 'url(./assets/images/projects/development/momentum.webp)',
         link: 'https://rolling-scopes-school.github.io/milkycocomoon-JSFEPRESCHOOL2022Q4/momentum/'
     },
     {
@@ -76,7 +76,7 @@ const projectList = [
         year: '2023',
         type: 'Graphic design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/wooden-toys-for-kids.webp)',
+        image: 'url(./assets/images/projects/design/wooden-toys-for-kids.webp)',
         link: 'https://www.behance.net/gallery/189091303/Logoryonok-Wooden-toys-for-child-development'
     },
     {
@@ -84,7 +84,7 @@ const projectList = [
         year: '2022',
         type: 'Product and brand design',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/enamelshop.webp)',
+        image: 'url(./assets/images/projects/design/enamelshop.webp)',
         link: 'https://www.behance.net/gallery/150533449/Enamelshop'
     },
     {
@@ -92,7 +92,7 @@ const projectList = [
         year: '2022',
         type: 'Book',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/the-red-book-of-endangered-animals.webp)',
+        image: 'url(./assets/images/projects/design/the-red-book-of-endangered-animals.webp)',
         link: 'https://www.behance.net/gallery/147297015/The-Red-Book-of-Endangered-animals'
     },
     {
@@ -100,7 +100,7 @@ const projectList = [
         year: '2022',
         type: 'Branding',
         category: 'Design',
-        image: 'url(../assets/images/projects/design/youtube-channel.webp)',
+        image: 'url(./assets/images/projects/design/youtube-channel.webp)',
         link: 'https://www.behance.net/gallery/147296613/Personal-design-for-music-YouTube-channel'
     },
     {
@@ -108,7 +108,7 @@ const projectList = [
         year: '2024',
         type: 'Original',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/original_atlasxlily.webp)',
+        image: 'url(./assets/images/projects/art/original_atlasxlily.webp)',
         link: 'https://x.com/lu_nana_lily/status/1761350990765142397'
     },
     {
@@ -116,7 +116,7 @@ const projectList = [
         year: '2024',
         type: 'Original',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/original_lily.webp)',
+        image: 'url(./assets/images/projects/art/original_lily.webp)',
         link: 'https://x.com/lu_nana_lily/status/1758804878040649868'
     },
     {
@@ -124,7 +124,7 @@ const projectList = [
         year: '2024',
         type: 'Commission',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/commission_camp.webp)',
+        image: 'url(./assets/images/projects/art/commission_camp.webp)',
         link: 'https://x.com/lu_nana_lily/status/1757454384185716825'
     },
     {
@@ -132,7 +132,7 @@ const projectList = [
         year: '2023',
         type: 'Commission',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/commission_elf.webp)',
+        image: 'url(./assets/images/projects/art/commission_elf.webp)',
         link: 'https://x.com/lu_nana_lily/status/1734273673601696069'
     },
     {
@@ -140,7 +140,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/fanart_nyanners.webp)',
+        image: 'url(./assets/images/projects/art/fanart_nyanners.webp)',
         link: 'https://x.com/lu_nana_lily/status/1731701039479345555'
     },
     {
@@ -148,7 +148,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/fanart_shylily.webp)',
+        image: 'url(./assets/images/projects/art/fanart_shylily.webp)',
         link: 'https://x.com/lu_nana_lily/status/1730297981914448182'
     },
     {
@@ -156,7 +156,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/fanart_frieren.webp)',
+        image: 'url(./assets/images/projects/art/fanart_frieren.webp)',
         link: 'https://x.com/lu_nana_lily/status/1729548890003603818'
     },
     {
@@ -164,7 +164,7 @@ const projectList = [
         year: '2023',
         type: 'Animation',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/sao-cover-swordland.webp)',
+        image: 'url(./assets/images/projects/art/sao-cover-swordland.webp)',
         link: 'https://youtu.be/d6Dcwntmhqg?si=N6fjQc8skeo5tkrW'
     },
     {
@@ -172,7 +172,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/fanart_silvervale-card.webp)',
+        image: 'url(./assets/images/projects/art/fanart_silvervale-card.webp)',
         link: 'https://x.com/lu_nana_lily/status/1663915170949627918'
     },
     {
@@ -180,7 +180,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(../assets/images/projects/art/fanart_yuniiho-card.webp)',
+        image: 'url(./assets/images/projects/art/fanart_yuniiho-card.webp)',
         link: 'https://x.com/lu_nana_lily/status/1656029593386532866'
     },
 ]
