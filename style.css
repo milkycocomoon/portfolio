@@ -443,7 +443,7 @@ nav {
     color: var(--color-primary);
   }
 
-  .button:hover {
+  .button-primary:hover {
     background-color: var(--color-primary-500);
     border: 0.1rem solid var(--color-primary-400);
   }
