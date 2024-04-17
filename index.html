@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+  <title>Milkycocomoon</title>
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="skillCards.css">
+</head>
+
+<body>
+  <header>
+    <div class="moon-wrap">
+      <img class="moon" src="./assets/images/decoration_moon.webp" alt="Moon">
+    </div>
+    <h1 class="ta-center">Milkycocomoon</h1>
+    <h2>designer ✕ artist ✕ developer</h2>
+  </header>
+
+  <button class="nav-mobile-only">&#9776;</button>
+  <nav class="nav">
+    <ul class="nav-menu">
+      <li><a href="#"><img src="./assets/icons/Logo.svg" alt="Logo"></a></li>
+      <li><a href="#SKILLS">skills</a></li>
+      <li><a href="./projects.html">projects</a></li>
+      <li><a href="./about.html">about</a></li>
+    </ul>
+    <ul class="nav-socials">
+      <li><a href="mailto:milkycocomoon@gmail.com"><button class="button button-primary">contact me</button></a></li>
+      <li><a href="https://twitter.com/lu_nana_lily" target="_blank"><img src="./assets/icons/TwitterX.svg" alt="TwitterX"></a></li>
+      <li><a href="https://www.linkedin.com/in/milkycocomoon/" target="_blank"><img src="./assets/icons/LinkedIn.svg" alt="LinkedIn"></a></li>
+      <li><a href="https://www.behance.net/cocomoon" target="_blank"><img src="./assets/icons/Behance.svg" alt="Behance"></a></li>
+      <li><a href="https://github.com/milkycocomoon" target="_blank"><img src="./assets/icons/GitHub.svg" alt="GitHub"></a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="section width flex | intro">
+      <img class="border-rounded" src="./assets/images/character.webp" alt="Character drawing">
+      <div class="container-reversed-colors border-rounded">
+        <h5>Multi-skilled professional</h5>
+        <h3>I am a talent<br>who creates</h3>
+        <p>I specialize in creating visually stunning and functionally effective projects. I like to keep things simple and not overcomplicate it.</p>
+      </div>
+    </section>
+
+    <section class="m-auto section width flex column" id="SKILLS">
+
+      <h3 class="ta-start">Skills</h3>
+      <p>
+        I have a strong understanding of both the creative and technical aspects of web development, design, and many other specialties. I am able to create and deliver from the ground up. I can utilize my skills to create either with a team or by myself.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-bg">
+            <h3>Design</h3>
+            <div class="card-fill">
+              <img class="skills-img-01" src="./assets/images/skills/1.webp" alt="Leafer - mobile screen design">
+              <img class="skills-img-02" src="./assets/images/skills/2.webp" alt="Leafer - mobile screen design">
+              <img class="skills-img-03" src="./assets/images/skills/3.webp" alt="Leafer - mobile screen design">
+            </div>
+          </div>
+          <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe InDesign</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe After Effects</li>
+            <li>Figma</li>
+            <li>Blender 3D</li>
+            <li>ZBrush</li>
+          </ul>
+          <ul>
+            <li>Branding</li>
+            <li>Graphic Design</li>
+            <li>Motion Design</li>
+            <li>UI/UX Design</li>
+            <li>Photography</li>
+            <li>Product Design</li>
+            <li>Retouching</li>
+            <li>Visualization</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-bg">
+            <h3>Development</h3>
+            <div class="card-fill">
+              <img class="skills-img-04" src="./assets/images/skills/4.webp" alt="Visual Studio Code screenshot">
+              <img class="skills-img-05" src="./assets/images/skills/5.webp" alt="Visual Studio Code screenshot">
+            </div>
+          </div>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Node.js</li>
+          </ul>
+          <ul>
+            <li>Web Application</li>
+            <li>Responsive Design</li>
+            <li>Problem-Solving</li>
+            <li>Algorithms & Data structures</li>
+            <li>Clean code</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-bg">
+            <h3>Digital art</h3>
+            <div class="card-fill">
+              <img class="skills-img-06" src="./assets/images/skills/6.webp" alt="Character drawing">
+              <img class="skills-img-07" src="./assets/images/skills/7.webp" alt="Character drawing">
+            </div>
+          </div>
+          <ul>
+            <li>Clip Studio Paint</li>
+            <li>Live2D Cubism</li>
+          </ul>
+          <ul>
+            <li>Illustration</li>
+            <li>Concept Art</li>
+            <li>Character Design</li>
+            <li>Frame by frame animation</li>
+            <li>Rigging</li>
+          </ul>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="section flex flex-end">
+
+        <div class="decorative-text-vertical">
+          <h4>Digital.art.</h4>
+          <h4>Development.</h4>
+          <h4>Design.</h4>
+        </div>
+
+        <article class="width flex column" id="latest-projects">
+          <h3>Latest projects</h3>
+        </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer"></p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script type="module" src="./js/latestProjects.js"></script>
+</body>
+
+</html>

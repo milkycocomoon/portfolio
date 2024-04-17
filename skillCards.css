@@ -1,0 +1,131 @@
+.card * {
+  list-style: disc;
+}
+
+.card-bg {
+  width: 100%;
+  height: 24rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius: var(--border-r);
+  background-color: var(--color-grayscale-500);
+  transition: all 1s;
+  user-select: none;
+}
+
+.card-bg h3 {
+  position: relative;
+  font-size: 1.5rem;
+  text-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.card-fill {
+  justify-content: center;
+  display: flex;
+}
+
+.skills-img-01,
+.skills-img-02,
+.skills-img-03,
+.skills-img-04,
+.skills-img-05,
+.skills-img-06,
+.skills-img-07 {
+  width: auto;
+  height: 20rem;
+  position: relative;
+  border-radius: var(--border-r);
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+  transition: all 1.2s;
+}
+
+.skills-img-01 {
+  inset: 2rem 0rem 0rem -2rem;
+}
+
+.skills-img-02 {
+  inset: 2rem 0rem 0rem 0rem;
+}
+
+.skills-img-03 {
+  inset: 2rem 0rem 0rem 2rem;
+}
+
+.skills-img-04 {
+  inset: 2rem 0rem 0rem -4rem;
+}
+
+.skills-img-05 {
+  inset: 2rem 0rem 0rem -2rem;
+}
+
+.skills-img-06 {
+  inset: 2rem 0rem 0rem -8rem;
+}
+
+.skills-img-07 {
+  inset: 2rem 0rem 0rem -10rem;
+}
+
+.card-bg:hover .skills-img-01,
+.card-bg:hover .skills-img-02,
+.card-bg:hover .skills-img-03,
+.card-bg:hover .skills-img-04,
+.card-bg:hover .skills-img-05 {
+  height: 12rem;
+}
+
+.card-bg:hover .skills-img-01{
+  inset: 5rem 0rem 0rem -1rem;
+}
+
+.card-bg:hover .skills-img-02{
+  inset: 2rem 0rem 0rem 0rem;
+}
+
+.card-bg:hover .skills-img-03{
+  inset: 0rem 0rem 0rem 1rem;
+}
+
+.card-bg:hover .skills-img-04{
+  inset: 2rem 0rem 0rem 10rem;
+}
+
+.card-bg:hover .skills-img-05{
+  inset: 2rem 0rem 0rem 0rem;
+}
+
+.card-bg:hover .skills-img-06{
+  inset: 2rem 0rem 0rem 0rem;
+}
+
+.card-bg:hover .skills-img-07{
+  inset: 2rem 0rem 0rem 2rem;
+}
+
+.card-bg:hover{
+  background-color: var(--color-primary-400);
+}
+
+@media screen and (max-width: 98rem) {
+  .skills-img-06,
+  .skills-img-07 {
+    height: 30rem;
+  }
+
+  .skills-img-06 {
+    inset: 2rem 0rem 0rem -14rem;
+  }
+
+  .skills-img-07 {
+    inset: 2rem 0rem 0rem -12rem;
+  }
+
+  .card-bg:hover .skills-img-06{
+    inset: 2rem 0rem 0rem -6rem;
+  }
+
+  .card-bg:hover .skills-img-07{
+    inset: 2rem 0rem 0rem -2rem;
+  }
+}
