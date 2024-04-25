@@ -108,7 +108,15 @@ const projectList = [
         year: '2024',
         type: 'Original',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/original_atlasxlily.webp)',
+        image: 'url(./assets/images/projects/art/original_atlasxlily-01.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1783199316632322454'
+    },
+    {
+        name: 'Atlas x Lily',
+        year: '2024',
+        type: 'Original',
+        category: 'Art',
+        image: 'url(./assets/images/projects/art/original_atlasxlily-00.webp)',
         link: 'https://x.com/lu_nana_lily/status/1761350990765142397'
     },
     {
