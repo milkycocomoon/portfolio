@@ -1,5 +1,13 @@
 const projectList = [
     {
+        name: "Single 'Survivor's guilt'",
+        year: '2024',
+        type: 'Motion design',
+        category: 'Design',
+        image: 'url(./assets/images/projects/design/single-survivors-guilt.webp)',
+        link: 'https://www.youtube.com/watch?v=zjksdE0Df9A'
+    },
+    {
         name: 'BlakeLW',
         year: '2024',
         type: 'Website',
@@ -173,7 +181,7 @@ const projectList = [
         type: 'Animation',
         category: 'Art',
         image: 'url(./assets/images/projects/art/sao-cover-swordland.webp)',
-        link: 'https://youtu.be/d6Dcwntmhqg?si=N6fjQc8skeo5tkrW'
+        link: 'https://youtu.be/d6Dcwntmhqg'
     },
     {
         name: 'Silvervale',
