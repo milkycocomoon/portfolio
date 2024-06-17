@@ -112,20 +112,36 @@ const projectList = [
         link: 'https://www.behance.net/gallery/147296613/Personal-design-for-music-YouTube-channel'
     },
     {
-        name: 'Atlas x Lily',
+        name: 'Maomao',
         year: '2024',
-        type: 'Original',
+        type: 'Fanart',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/original_atlasxlily-01.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1783199316632322454'
+        image: 'url(./assets/images/projects/art/fanart_maomao.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1801627201403510987'
+    },
+    {
+        name: 'Sinder',
+        year: '2024',
+        type: 'Fanart',
+        category: 'Art',
+        image: 'url(./assets/images/projects/art/fanart_sinder.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1800953738905178340'
+    },
+    {
+        name: 'Asuka',
+        year: '2024',
+        type: 'Fanart',
+        category: 'Art',
+        image: 'url(./assets/images/projects/art/fanart_asuka.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1799102431672082789'
     },
     {
         name: 'Atlas x Lily',
         year: '2024',
         type: 'Original',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/original_atlasxlily-00.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1761350990765142397'
+        image: 'url(./assets/images/projects/art/original_atlasxlily-01.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1783199316632322454'
     },
     {
         name: 'Lily',
@@ -160,22 +176,6 @@ const projectList = [
         link: 'https://x.com/lu_nana_lily/status/1731701039479345555'
     },
     {
-        name: 'Shylily',
-        year: '2023',
-        type: 'Fanart',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_shylily.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1730297981914448182'
-    },
-    {
-        name: 'Frieren',
-        year: '2023',
-        type: 'Fanart',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_frieren.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1729548890003603818'
-    },
-    {
         name: 'Swordland cover',
         year: '2023',
         type: 'Animation',
@@ -188,7 +188,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_silvervale-card.webp)',
+        image: 'url(./assets/images/projects/art/fanart_silvervale.webp)',
         link: 'https://x.com/lu_nana_lily/status/1663915170949627918'
     },
     {
@@ -196,7 +196,7 @@ const projectList = [
         year: '2023',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_yuniiho-card.webp)',
+        image: 'url(./assets/images/projects/art/fanart_yuniiho.webp)',
         link: 'https://x.com/lu_nana_lily/status/1656029593386532866'
     },
 ]
