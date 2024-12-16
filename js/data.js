@@ -1,6 +1,14 @@
 const projectList = [
     {
-        name: "Single 'Survivor's guilt'",
+        name: "Palevoid - ERROR.exe",
+        year: '2024',
+        type: 'Motion design',
+        category: 'Design',
+        image: 'url(./assets/images/projects/design/palevoid_error.webp)',
+        link: 'https://www.youtube.com/watch?v=ob9wpvKd52Q'
+    },
+    {
+        name: "Loreweaver - Survivor's guilt",
         year: '2024',
         type: 'Motion design',
         category: 'Design',
@@ -8,12 +16,12 @@ const projectList = [
         link: 'https://www.youtube.com/watch?v=zjksdE0Df9A'
     },
     {
-        name: 'BlakeLW',
+        name: 'BlakeLW.com',
         year: '2024',
         type: 'Website',
         category: 'Development',
         image: 'url(./assets/images/projects/development/blakelw.webp)',
-        link: 'https://milkycocomoon.github.io/BlakeLW/'
+        link: 'https://www.blakelw.com/'
     },
     {
         name: 'Leafer',
@@ -112,20 +120,20 @@ const projectList = [
         link: 'https://www.behance.net/gallery/147296613/Personal-design-for-music-YouTube-channel'
     },
     {
-        name: 'Maomao',
+        name: 'Raye',
         year: '2024',
-        type: 'Fanart',
+        type: 'Commission',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_maomao.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1801627201403510987'
+        image: 'url(./assets/images/projects/art/commission_christmas.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1866885806864077147'
     },
     {
-        name: 'Sinder',
+        name: 'Lucy Pyre',
         year: '2024',
         type: 'Fanart',
         category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_sinder.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1800953738905178340'
+        image: 'url(./assets/images/projects/art/fanart_lucy.webp)',
+        link: 'https://x.com/lu_nana_lily/status/1847013573681467442'
     },
     {
         name: 'Asuka',
@@ -136,68 +144,12 @@ const projectList = [
         link: 'https://x.com/lu_nana_lily/status/1799102431672082789'
     },
     {
-        name: 'Atlas x Lily',
-        year: '2024',
-        type: 'Original',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/original_atlasxlily-01.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1783199316632322454'
-    },
-    {
-        name: 'Lily',
-        year: '2024',
-        type: 'Original',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/original_lily.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1758804878040649868'
-    },
-    {
-        name: 'Camp',
-        year: '2024',
-        type: 'Commission',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/commission_camp.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1757454384185716825'
-    },
-    {
-        name: 'Elf',
-        year: '2023',
-        type: 'Commission',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/commission_elf.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1734273673601696069'
-    },
-    {
-        name: 'Nyanners',
-        year: '2023',
-        type: 'Fanart',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_nyanners.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1731701039479345555'
-    },
-    {
         name: 'Swordland cover',
         year: '2023',
         type: 'Animation',
         category: 'Art',
         image: 'url(./assets/images/projects/art/sao-cover-swordland.webp)',
         link: 'https://youtu.be/d6Dcwntmhqg'
-    },
-    {
-        name: 'Silvervale',
-        year: '2023',
-        type: 'Fanart',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_silvervale.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1663915170949627918'
-    },
-    {
-        name: 'Yuniiho',
-        year: '2023',
-        type: 'Fanart',
-        category: 'Art',
-        image: 'url(./assets/images/projects/art/fanart_yuniiho.webp)',
-        link: 'https://x.com/lu_nana_lily/status/1656029593386532866'
     },
 ]
 export default projectList;
